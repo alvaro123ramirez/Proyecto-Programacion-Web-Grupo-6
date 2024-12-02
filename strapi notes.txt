@@ -1,0 +1,5 @@
+admin@strapi.com
+D5crcdmi!
+
+npm run strapi develop  / strapi
+npm run dev / react

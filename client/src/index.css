@@ -1,0 +1,235 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #fff;
+	color: black;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Nav */
+/* .custom-nav .collapse {
+	justify-content: flex-end;
+} */
+/* End Nav */
+
+/* Home */
+.home {
+	margin-top: 30px;
+}
+
+.home > h2 {
+	margin-bottom: 20px;
+}
+
+.home .category {
+	margin-bottom: 20px;
+}
+
+.home .category-title {
+	margin: 10px 0;
+	padding: 40px;
+	background: red;
+	color: white;
+	border-radius: 9px;
+}
+
+/* End home */
+
+/* Login */
+.login {
+	min-height: 100vh;
+	align-items: center;
+	background-color: #fff;
+}
+
+.login h6 {
+	margin-top: 15px;
+}
+
+/* End Login */
+
+/* Register */
+.register {
+	min-height: 100vh;
+	align-items: center;
+	background-color: #fff;
+}
+/* End register */
+
+/* Product */
+.product-card {
+	color: #020024;
+}
+
+.product-card .card-title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* End product */
+
+
+.container-encabezado {
+	background-color: red;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.logout-encabezado {
+	display: flex;
+	justify-content: center;
+}
+.encabezado {
+	display: flex;
+	padding-top: 0.6em;
+}
+.container-logo {
+	margin-right: 1em;
+}
+.title-login {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1.5em;
+}
+.container-boton-ingresar {
+	background-color: red;
+	border-width: 0;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+.container-padre-boton-ingresar {
+	display: flex;
+	justify-content: center;
+}
+.container-boton-ingresar:hover {
+	background-color: red;
+	color: white;
+}
+.container-padre-boton-registrar {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.5em;
+}
+.container-boton-registrar {
+	background-color: white;
+	border-color: red;
+}
+.container-boton-registrar:hover {
+	background-color: white;
+	color: red;
+	border-color: red;
+}
+.title-registrar {
+	display: flex;
+	justify-content: center;
+	margin: 1.5em;
+}
+.link-registrar {
+	color: red;
+}
+.container-padre-details-producto {
+	display: flex;
+}
+.container-detalle-producto {
+	padding-left: 4em;
+}
+.container-cantidad-producto {
+	display: flex;
+	margin-top: 3em;
+	border: 1px solid black;
+	border-radius: 1em;
+	width: 70%;
+	font-size: 0.5em;
+}
+.container-cantidad-producto div {
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+}
+.container-disminuir-producto {
+	border-radius: 1em 0 0 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.container-aumentar-producto {
+	border-radius: 0 1em 1em 0;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.container-cantidad {
+	padding: 1em;
+	padding-left: 3em;
+	padding-right: 2em;
+}
+.container-padre-footer {
+	background-color: red;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.container-footer {
+	display: flex;
+}
+.container-footer div {
+	margin: 1em;
+}
+.container-padre-boton-registro-principal {
+	display: flex;
+	justify-content: center;
+}
+.boton-registro-principal {
+	background-color: red;
+	color: white;
+	border-width: 0;
+	padding: 0.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.title-pagina-principal-registro {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1.5em;
+}
+.boton-registro-principal:hover {
+	background-color: red;
+	color: white;
+}
+.container-name-producto-secciones{
+	display: flex;
+	justify-content: center;
+}
+.container-precio-producto-secciones{
+	display: flex;
+	justify-content: center;
+}
+.product-view{
+	margin-top: 10em;
+	margin-bottom: 10.5em;
+}
+.title-bienvenido-logout{
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.container-imagen-logout{
+	width: 60%;
+}
+.container-principal-logout{
+	width: 10%;
+}
+.container-boton-agregar-carrito :first-child{
+	background-color: red;
+	color: white;
+	padding: .5em;
+	border-radius: 10px;
+}
+
